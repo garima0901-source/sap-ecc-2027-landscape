@@ -110,4 +110,5 @@ npm run dev
 
 ## Contact
 
-Built by Garima. [LinkedIn — add link here]
+Built by Garima. [GitHub](https://github.com/garima0901-source) ·
+[LinkedIn](https://www.linkedin.com/in/garima-1676141b4/)
