@@ -10,8 +10,8 @@ first Brand & Marketing hire role — an exercise in building something in
 Conduct's own market (SAP ECC migration) with the same standard of honesty
 about sourcing that a company like Conduct would need to hold itself to.
 
-**Live:** [add Vercel URL here]
-**Repo:** [add GitHub URL here]
+**Live:** https://sap-ecc-2027-landscape.vercel.app
+**Repo:** https://github.com/garima0901-source/sap-ecc-2027-landscape
 
 ## Design principle
 
@@ -92,6 +92,19 @@ them weekly would be dishonest theater rather than real freshness. Instead it:
 
 This is a scheduled-and-cited page, not a claim of real-time data — that
 distinction is stated on the page itself, not just here.
+
+### Enabling the auto-commit (optional)
+
+The cron endpoint works without this — it just won't be able to persist its
+result. To let it commit back to the repo, add these in the Vercel project's
+Settings → Environment Variables (never commit a token to the repo itself):
+
+- `GITHUB_TOKEN` — a fine-grained GitHub personal access token scoped to
+  **Contents: Read and write** on this repo only
+- `GITHUB_REPO` — `garima0901-source/sap-ecc-2027-landscape`
+- `CRON_SECRET` (optional) — if set, the endpoint only responds to requests
+  carrying `Authorization: Bearer <CRON_SECRET>`, which Vercel Cron sends
+  automatically when this variable exists
 
 ## Tech stack
 
