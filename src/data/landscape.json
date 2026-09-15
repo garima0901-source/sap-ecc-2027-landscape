@@ -3,7 +3,23 @@
     "lastVerified": "2026-09-15",
     "deadline": "2027-12-31T23:59:59Z",
     "githubUrl": "https://github.com/garima0901-source",
-    "linkedinUrl": "https://www.linkedin.com/in/garima-1676141b4/"
+    "linkedinUrl": "https://www.linkedin.com/in/garima-1676141b4/",
+    "lastChecked": {
+      "date": "2026-09-15",
+      "checkedUrls": 13,
+      "broken": [
+        {
+          "url": "https://sifted.eu/articles/conduct-60m-series-a",
+          "status": 403,
+          "error": null
+        },
+        {
+          "url": "https://techfundingnews.com/conduct-60m-series-a-iconiq-index-ventures-sap-2027-deadline/",
+          "status": 403,
+          "error": null
+        }
+      ]
+    }
   },
   "facts": {
     "eccDeadline": {
@@ -11,8 +27,14 @@
       "label": "SAP ends mainstream maintenance for SAP ECC 6.0 (EhP6-8) / Business Suite 7 on this date. (ECC on EhP0-5 already lost mainstream support on Dec 31, 2025.) SAP has held this date since first announcing it in 2020.",
       "confidence": "high",
       "sources": [
-        { "name": "Sifted — \"3 ex-Palantir engineers raise $60m ... for agentic operating system\"", "url": "https://sifted.eu/articles/conduct-60m-series-a" },
-        { "name": "Rimini Street — \"No Extension to SAP ECC 6 and Business Suite 7 Mainstream Maintenance End Dates\"", "url": "https://www.riministreet.com/blog/no-extension-to-ecc-support-2027-deadline/" }
+        {
+          "name": "Sifted — \"3 ex-Palantir engineers raise $60m ... for agentic operating system\"",
+          "url": "https://sifted.eu/articles/conduct-60m-series-a"
+        },
+        {
+          "name": "Rimini Street — \"No Extension to SAP ECC 6 and Business Suite 7 Mainstream Maintenance End Dates\"",
+          "url": "https://www.riministreet.com/blog/no-extension-to-ecc-support-2027-deadline/"
+        }
       ]
     },
     "unmigratedCustomers": {
@@ -22,28 +44,76 @@
       "confidence": "high",
       "sourceLabel": "Gartner, via Sifted and TechFundingNews",
       "sources": [
-        { "name": "Sifted — Conduct $60M Series A coverage", "url": "https://sifted.eu/articles/conduct-60m-series-a" },
-        { "name": "TechFundingNews — \"Why ICONIQ led a $60M Series A for a London startup fixing SAP\"", "url": "https://techfundingnews.com/conduct-60m-series-a-iconiq-index-ventures-sap-2027-deadline/" }
+        {
+          "name": "Sifted — Conduct $60M Series A coverage",
+          "url": "https://sifted.eu/articles/conduct-60m-series-a"
+        },
+        {
+          "name": "TechFundingNews — \"Why ICONIQ led a $60M Series A for a London startup fixing SAP\"",
+          "url": "https://techfundingnews.com/conduct-60m-series-a-iconiq-index-ventures-sap-2027-deadline/"
+        }
       ]
     },
     "conduct": {
       "founded": 2024,
       "founders": [
-        { "name": "Jan Philipp Haas", "role": "CEO & Co-Founder", "background": "led Palantir commercial work across DACH" },
-        { "name": "Philipp Hoefer", "role": "Co-Founder", "background": "led Palantir's AI platform product strategy for European enterprise" },
-        { "name": "Henry Thompson", "role": "Co-Founder", "background": "led Palantir commercial engineering, Japan" }
+        {
+          "name": "Jan Philipp Haas",
+          "role": "CEO & Co-Founder",
+          "background": "led Palantir commercial work across DACH"
+        },
+        {
+          "name": "Philipp Hoefer",
+          "role": "Co-Founder",
+          "background": "led Palantir's AI platform product strategy for European enterprise"
+        },
+        {
+          "name": "Henry Thompson",
+          "role": "Co-Founder",
+          "background": "led Palantir commercial engineering, Japan"
+        }
       ],
-      "seriesA": { "amount": "$60M", "date": "2026-06-17", "leads": ["Index Ventures", "ICONIQ"], "strategic": "SAP", "participants": ["Creandum", "Lucid Capital", "Booom"] },
+      "seriesA": {
+        "amount": "$60M",
+        "date": "2026-06-17",
+        "leads": [
+          "Index Ventures",
+          "ICONIQ"
+        ],
+        "strategic": "SAP",
+        "participants": [
+          "Creandum",
+          "Lucid Capital",
+          "Booom"
+        ]
+      },
       "totalRaised": "~$72M",
-      "customers": ["Daimler Truck", "DHL", "Fraport", "Heidelberg Materials"],
+      "customers": [
+        "Daimler Truck",
+        "DHL",
+        "Fraport",
+        "Heidelberg Materials"
+      ],
       "speedClaim": "transformations reported at least 30% faster",
       "confidence": "high",
       "note": "Spec draft stated Conduct was founded in 2026 — re-verified during build and corrected to 2024 (the company spent ~18 months in stealth before its Sept 2025 launch, per Silicon Canals).",
       "sources": [
-        { "name": "Sifted — Conduct $60M Series A coverage", "url": "https://sifted.eu/articles/conduct-60m-series-a" },
-        { "name": "TechFundingNews — Conduct Series A coverage", "url": "https://techfundingnews.com/conduct-60m-series-a-iconiq-index-ventures-sap-2027-deadline/" },
-        { "name": "Silicon Canals — \"Conduct breaks cover after 18 months in stealth\"", "url": "https://siliconcanals.com/conduct-breaks-cover-with-10-1m/" },
-        { "name": "EU-Startups — \"Ex-Palantir team behind Conduct raises €51 million\"", "url": "https://www.eu-startups.com/2026/06/ex-palantir-team-behind-conduct-raises-e51-million-to-make-enterprise-systems-ai-ready/" }
+        {
+          "name": "Sifted — Conduct $60M Series A coverage",
+          "url": "https://sifted.eu/articles/conduct-60m-series-a"
+        },
+        {
+          "name": "TechFundingNews — Conduct Series A coverage",
+          "url": "https://techfundingnews.com/conduct-60m-series-a-iconiq-index-ventures-sap-2027-deadline/"
+        },
+        {
+          "name": "Silicon Canals — \"Conduct breaks cover after 18 months in stealth\"",
+          "url": "https://siliconcanals.com/conduct-breaks-cover-with-10-1m/"
+        },
+        {
+          "name": "EU-Startups — \"Ex-Palantir team behind Conduct raises €51 million\"",
+          "url": "https://www.eu-startups.com/2026/06/ex-palantir-team-behind-conduct-raises-e51-million-to-make-enterprise-systems-ai-ready/"
+        }
       ]
     },
     "adoptionSurvey": {
@@ -54,8 +124,14 @@
       "label": "of companies are fully or partially live on SAP S/4HANA",
       "confidence": "reasonable",
       "sources": [
-        { "name": "PR Newswire — Precisely/ASUG research release", "url": "https://www.prnewswire.com/news-releases/new-research-reveals-sap-s4hana-migration-momentum-despite-ongoing-automation-challenges-302603235.html" },
-        { "name": "Precisely — press release", "url": "https://www.precisely.com/press-release/new-research-reveals-sap-s-4hana-migration-momentum-despite-ongoing-automation-challenges" }
+        {
+          "name": "PR Newswire — Precisely/ASUG research release",
+          "url": "https://www.prnewswire.com/news-releases/new-research-reveals-sap-s4hana-migration-momentum-despite-ongoing-automation-challenges-302603235.html"
+        },
+        {
+          "name": "Precisely — press release",
+          "url": "https://www.precisely.com/press-release/new-research-reveals-sap-s-4hana-migration-momentum-despite-ongoing-automation-challenges"
+        }
       ]
     },
     "migrationIntent2026": {
@@ -64,7 +140,10 @@
       "label": "of organizations intend to be on S/4HANA before the end of 2026",
       "confidence": "reasonable",
       "sources": [
-        { "name": "SAPinsider — \"SAP ECC to S/4HANA Migration: Abacus Maps the 2026 Decision\"", "url": "https://sapinsider.org/blogs/sap-ecc-to-s4hana-migration-abacus-2026/" }
+        {
+          "name": "SAPinsider — \"SAP ECC to S/4HANA Migration: Abacus Maps the 2026 Decision\"",
+          "url": "https://sapinsider.org/blogs/sap-ecc-to-s4hana-migration-abacus-2026/"
+        }
       ]
     },
     "budgetOverrun": {
@@ -73,8 +152,14 @@
       "surveyName": "Tachyon Technologies, March 2026 report",
       "confidence": "reasonable",
       "sources": [
-        { "name": "Kagool — \"SAP ECC to S/4HANA Migration Path: A Strategic Roadmap for 2026\" (cites Tachyon)", "url": "https://kagool.com/sap-ecc-to-s-4hana-migration-path-a-strategic-roadmap-for-enterprise-leaders-in-2026/" },
-        { "name": "Tachyon — \"SAP S/4HANA Migration Costs in 2026\"", "url": "https://www.tachyontech.com/sap-s-4hana-migration-costs-in-2026-what-mid-market-enterprises-should-actually-budget/" }
+        {
+          "name": "Kagool — \"SAP ECC to S/4HANA Migration Path: A Strategic Roadmap for 2026\" (cites Tachyon)",
+          "url": "https://kagool.com/sap-ecc-to-s-4hana-migration-path-a-strategic-roadmap-for-enterprise-leaders-in-2026/"
+        },
+        {
+          "name": "Tachyon — \"SAP S/4HANA Migration Costs in 2026\"",
+          "url": "https://www.tachyontech.com/sap-s-4hana-migration-costs-in-2026-what-mid-market-enterprises-should-actually-budget/"
+        }
       ]
     },
     "consultantRates": {
@@ -84,23 +169,55 @@
       "surveyName": "Tachyon Technologies",
       "confidence": "reasonable",
       "sources": [
-        { "name": "Tachyon — \"SAP ECC to S/4HANA Migration: Why 2025 Is Your Last Window\"", "url": "https://www.tachyontech.com/sap-ecc-to-s-4hana-migration-why-2025-is-your-last-window-of-opportunity/" },
-        { "name": "Kagool — 2026 migration roadmap (secondary citation)", "url": "https://kagool.com/sap-ecc-to-s-4hana-migration-path-a-strategic-roadmap-for-enterprise-leaders-in-2026/" }
+        {
+          "name": "Tachyon — \"SAP ECC to S/4HANA Migration: Why 2025 Is Your Last Window\"",
+          "url": "https://www.tachyontech.com/sap-ecc-to-s-4hana-migration-why-2025-is-your-last-window-of-opportunity/"
+        },
+        {
+          "name": "Kagool — 2026 migration roadmap (secondary citation)",
+          "url": "https://kagool.com/sap-ecc-to-s-4hana-migration-path-a-strategic-roadmap-for-enterprise-leaders-in-2026/"
+        }
       ]
     },
     "regionalIndustry": {
       "regions": [
-        { "name": "North America", "shareLow": 38, "shareHigh": 45, "note": "largest installed base of long-standing ECC systems now migrating" },
-        { "name": "Europe", "shareLow": 35, "shareHigh": 40, "note": "large mature installed base, esp. Germany's automotive/industrial core" },
-        { "name": "Asia-Pacific", "shareLow": 10, "shareHigh": 20, "note": "smaller installed base, fastest-growing new adoption" },
-        { "name": "Rest of World", "shareLow": 5, "shareHigh": 12, "note": "earliest-stage adoption" }
+        {
+          "name": "North America",
+          "shareLow": 38,
+          "shareHigh": 45,
+          "note": "largest installed base of long-standing ECC systems now migrating"
+        },
+        {
+          "name": "Europe",
+          "shareLow": 35,
+          "shareHigh": 40,
+          "note": "large mature installed base, esp. Germany's automotive/industrial core"
+        },
+        {
+          "name": "Asia-Pacific",
+          "shareLow": 10,
+          "shareHigh": 20,
+          "note": "smaller installed base, fastest-growing new adoption"
+        },
+        {
+          "name": "Rest of World",
+          "shareLow": 5,
+          "shareHigh": 12,
+          "note": "earliest-stage adoption"
+        }
       ],
       "industryNote": "Manufacturing and retail together account for well over half of documented S/4HANA transformation case studies.",
       "surveyName": "wmsspl.com regional/industry adoption analysis",
       "confidence": "directional",
       "sources": [
-        { "name": "WMS — \"SAP S/4HANA Adoption Rate by Region\"", "url": "https://wmsspl.com/sap-s-4hana-adoption-rate-by-region/" },
-        { "name": "WMS — \"Top Companies Using SAP by Industry\"", "url": "https://wmsspl.com/top-companies-using-sap-global-industries-wise/" }
+        {
+          "name": "WMS — \"SAP S/4HANA Adoption Rate by Region\"",
+          "url": "https://wmsspl.com/sap-s-4hana-adoption-rate-by-region/"
+        },
+        {
+          "name": "WMS — \"Top Companies Using SAP by Industry\"",
+          "url": "https://wmsspl.com/top-companies-using-sap-global-industries-wise/"
+        }
       ]
     }
   }
