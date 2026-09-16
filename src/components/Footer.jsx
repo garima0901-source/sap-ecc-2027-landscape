@@ -8,7 +8,7 @@ export default function Footer() {
           <p className="text-sm text-paper-dim">
             Built independently by{' '}
             <span className="text-paper font-medium">Garima</span> — an official work sample for
-            a content growth journalist role, not an official content product.
+            Conduct's growth generalist role, not an official Conduct product.
           </p>
           <div className="flex gap-4 mt-4 text-sm">
             {data.meta.githubUrl && (
