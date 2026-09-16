@@ -5,18 +5,10 @@ export default function Footer() {
     <footer className="bg-ink">
       <div className="max-w-6xl mx-auto px-6 py-14">
         <div className="border-t border-hairline pt-10">
-          <p className="text-paper-dim max-w-2xl leading-relaxed mb-2">
-            Every number on this page is sourced and dated — see citations throughout. Data is
-            checked weekly, not scraped live, because that's the honest way to keep a page like
-            this accurate rather than just appearing to be real-time.
-          </p>
-          <p className="text-paper-faint text-sm mb-6">
-            Last verified {data.meta.lastVerified}.
-          </p>
           <p className="text-sm text-paper-dim">
             Built independently by{' '}
-            <span className="text-paper font-medium">Garima</span> — a public work sample for
-            Conduct's Brand &amp; Marketing role, not an official Conduct product.
+            <span className="text-paper font-medium">Garima</span> — an official work sample for
+            a content growth journalist role, not an official content product.
           </p>
           <div className="flex gap-4 mt-4 text-sm">
             {data.meta.githubUrl && (
