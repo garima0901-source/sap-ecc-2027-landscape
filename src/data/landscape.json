@@ -5,18 +5,13 @@
     "githubUrl": "https://github.com/garima0901-source",
     "linkedinUrl": "https://www.linkedin.com/in/garima-1676141b4/",
     "lastChecked": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "checkedUrls": 13,
       "broken": [
         {
-          "url": "https://sifted.eu/articles/conduct-60m-series-a",
-          "status": 403,
-          "error": null
-        },
-        {
-          "url": "https://techfundingnews.com/conduct-60m-series-a-iconiq-index-ventures-sap-2027-deadline/",
-          "status": 403,
-          "error": null
+          "url": "https://www.precisely.com/press-release/new-research-reveals-sap-s-4hana-migration-momentum-despite-ongoing-automation-challenges",
+          "status": null,
+          "error": "This operation was aborted"
         }
       ]
     }
