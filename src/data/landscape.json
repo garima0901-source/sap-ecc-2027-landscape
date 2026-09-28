@@ -5,13 +5,18 @@
     "githubUrl": "https://github.com/garima0901-source",
     "linkedinUrl": "https://www.linkedin.com/in/garima-1676141b4/",
     "lastChecked": {
-      "date": "2026-09-21",
+      "date": "2026-09-28",
       "checkedUrls": 13,
       "broken": [
         {
+          "url": "https://www.eu-startups.com/2026/06/ex-palantir-team-behind-conduct-raises-e51-million-to-make-enterprise-systems-ai-ready/",
+          "status": 403,
+          "error": null
+        },
+        {
           "url": "https://www.precisely.com/press-release/new-research-reveals-sap-s-4hana-migration-momentum-despite-ongoing-automation-challenges",
-          "status": null,
-          "error": "This operation was aborted"
+          "status": 403,
+          "error": null
         }
       ]
     }
